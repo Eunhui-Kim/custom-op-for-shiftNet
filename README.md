@@ -47,17 +47,5 @@ In the path,
  Since compatibility issue, one might skipped.
  However, it's ok.
  
- After run test_gradient_ASL.py, the output message example >>>
- 
- [ RUN      ] DepthwiseACUTest.testBottomGradientFloat64
- [       OK ] DepthwiseACUTest.testBottomGradientFloat64
- [ RUN      ] DepthwiseACUTest.test_session
- [  SKIPPED ] DepthwiseACUTest.test_session
- [ RUN      ] DepthwiseACUTest.testshiftGradientFloat64
- [       OK ] DepthwiseACUTest.testshiftGradientFloat64
-----------------------------------------------------------------------
-Ran 3 tests in 3.353s
-
-OK (skipped=1)
 
  
