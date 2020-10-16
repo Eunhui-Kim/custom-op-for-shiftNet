@@ -11,11 +11,11 @@ The active shift layer is
 
 # pre-requisite
 Note that this code is tested only in the environment decribed below. Mismatched versions does not guarantee correct execution.
-Ubuntu kernel ver. 4.15.0-117-generic #118~16.04.1
-Tensorflow 1.15.3
-Cuda 10.0
-g++ 7.5.0
-python 3.7
+ - Ubuntu kernel ver. 4.15.0-117-generic #118~16.04.1
+ - Tensorflow 1.15.3
+ - Cuda 10.0
+ - g++ 7.5.0
+ - python 3.7
 
 [Experience share for Tensorflow installation]
 I modified the ASL URL according to the guide in custom-op which is in https://github.com/tensorflow/custom-op .
