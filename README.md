@@ -18,6 +18,7 @@ Note that this code is tested only in the environment decribed below. Mismatched
  - python 3.7
 
 [Experience share for Tensorflow installation]
+
 I modified the ASL URL according to the guide in custom-op which is in https://github.com/tensorflow/custom-op .
 Since I expect efficient operation, I installed tensorflow 1.15.3 gpu version as source-level.
 (I also tested pip install tensorflow-gpu==1.15.3, however it's slower than source-level installation,
