@@ -21,10 +21,11 @@ Note that this code is tested only in the environment decribed below. Mismatched
 
 I modified the ASL URL according to the guide in custom-op which is in https://github.com/tensorflow/custom-op .
 Since I expect efficient operation, I installed tensorflow 1.15.3 gpu version as source-level.
-(I also tested pip install tensorflow-gpu==1.15.3, however it's slower than source-level installation,
- in my case, it can make 3 times acceleration for training. 
- In imagenet dataset, for ResNet50 model of 256 batch, it takes about 3 weeks on pip installed V100 2-GPU server, 
- while it takes about 1 week on source-level installed RTX2080 2-GPU server.)
+
+( ! The most important thing for speedy training is I/O between GPU and dataset.
+    In our case, we put the imagenet dataset on NVME SSD.
+    Compared with putting the imagenet dataset on SATA HDD, 
+    it can reduce training time by 3 times.)
 
 
 # Build
